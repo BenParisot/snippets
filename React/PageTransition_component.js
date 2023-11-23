@@ -16,4 +16,4 @@ const PageTransition = ({ children }) => {
 
 export default PageTransition;
 
-//NOTES:
+//NOTES: -this needs tweaking, it doesn't quite work because the return setTransitionStage hits after the component has already unmounted
